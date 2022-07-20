@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p {
+    width: 160px;
+    padding: 0 15px;
+    text-align: center;
+}
+p:not(:first-child) {
+    border-left: 1px solid black;
+}
+h1 {
+    text-align: center;
+    /* To center the text of the tag */
+    background-color: #00FFFF;
+    /* To change the color of the tag */
+    height: 72px;
+    /* To change the height of the tag */
+    line-height: 72px;
+    /* To center the text based on the height */
+    font-size: 50px;
+    /* To change the font-size of the tag */
+    width: 50vw;
+    /* To change the width of the tag */
+    margin: 0 auto;
+    /* To create the space betwwen the elements */
+    word-spacing: 50px; 
+    /* To create the space between the words */
+    letter-spacing: 20px;
+    /* To create the space between the letters */
+
+}
