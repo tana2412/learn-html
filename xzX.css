@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    width: 200px;
+    padding: 0 30px;
+    text-align: justify;
+}
+
+p:not(:first-child) {
+    border-left: 1px solid #333;
+}
